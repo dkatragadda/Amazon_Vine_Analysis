@@ -5,7 +5,7 @@
 This project involved the usage of big data technologies to access large amounts of data on Amazon's S3 service and perform ETL activities using Pyspark and Amazon's RDS instance of a PostgreSQL database. This project analyzed product reviews for Grocery on the Amazon US website. Our goal was to go through the reviews and transform the data and break up the dataset into 4 different dataframes and load the PostgreSQL tables on RDS with the dataframes. Subsequently, we analyzed the dataset pertaining to the reviews to determine if there was any positivity bias for 5-star reviews in the paid or Vine review program. 
 
 ## Resources
-* [Amazon Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt "Amazon Review Datasets") [Grocery Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Grocery_v1_00.tsv.gz "Grocery Review Datasets")
+* [Amazon Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt "Amazon Review Datasets"), [Grocery Review Datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Grocery_v1_00.tsv.gz "Grocery Review Datasets")
 * Tools Used: Google Colab Notebooks, PostgreSQL 12.5, Amazon RDS, pgAdmin 4
 
 ## Results
